@@ -1,29 +1,121 @@
-ul{
-    list-style: square ;
+body{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
 }
-div{
-    width: 100px;
+hr{
+    margin: 10px;
+}
+/* bài tập 1 */
+.baitap1{
+    width: 1210px;
+    ma
+}
+.khoitren, .khoiduoi{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+/* CSS chung cho khối vào chữ */
+
+.anhkhoi p{
+    color:#929292; 
+    text-align:center;
+}
+.anhkhoi{
+    background: #CDCDCD;
+    border: 1px solid gray;
+    box-sizing: border-box;
+}   /* nền khối ảnh */
+
+.text-nho{
+    font-size: 13px;
+    color: grey;
+}
+.khoicon{
+    width: 390px;
+}
+
+/* hếtCSS chung cho khối vào chữ */
+
+    /* khối trên */
+    .khoitren{
+        margin-bottom: 30px;
+    }
+    .khoihinhanhtren{
+        height: 400px;
+        width: 800px;
+    }    /* size ảnh */
+    .sizeanhto{
+    font-size:80px;
+    }
+    
+    /* hết khối trên */
+
+    /* khối dưới */
+        
+    .anhkhoicon{
+        width: 300px;
+        height: 150px;
+    }/* size ảnh */
+
+    .sizeanhnho{
+        font-size: 50px;
+        
+    }
+    .khoicontrai{
+        width: 800px;
+        display: flex;
+        justify-content: space-between;
+    }
+    /* khối dưới */
+/* bai tap 2 */
+.baitap2{
+    width: 1300px;
+    color: white;
+    font-size: 14px;
+    text-align: centers;
+
+}
+.mot-hang div{
+    background: rgb(194, 53, 53);
     height: 100px;
-    font-size: 40px ;
+    border: 1px solid white;
+}
+.mot-hang{
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
-.song{
-    width: 400px;
-    height: 400px;
-    background: #ffffa9;
+.hangmot{
+    flex: 1;
+}
+.nam{
+    flex: 5;
+}   
+.bay{
+    flex: 7;
+}
+.bon{
+    flex: 4;
 
 }
-.green{
-    background: green;
+.tam{
+    flex:8;
 }
-.red{
-    background: red; 
-
+.ba{
+    flex: 3;
 }
-.hong{
-    background: lightpink;
+.chin{
+    flex: 9;
 }
-/* .clearfix{
-    clear: both;
-} */
+.hai{
+    flex: 2;
+}
+.muoi{
+    flex: 10;
+}
+.mot{ flex: 1;}
+.muoimot{ flex: 11;}
+.muoihai{ 
+    flex: 1;
+}
